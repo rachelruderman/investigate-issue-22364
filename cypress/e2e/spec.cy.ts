@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('if your app uses jQuery', () => {
+describe('copy/paste example from GitHub issue', () => {
   ['mouseover', 'mouseout', 'mouseenter', 'mouseleave'].forEach((event) => {
       it('triggers event: ' + event, () => {
           cy.log('test ran');
